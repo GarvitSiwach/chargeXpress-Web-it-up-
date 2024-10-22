@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+</head>
+<body>
+    <div id="nav">
+        <img src="only logo.png" alt="">
+        <div id="center-nav">
+        <a href="#page">HOME</a>
+        <a href="#" id="location">LOCATIONS</a>
+        <a href="#page6">HOW IT WORKS</a>
+        <a href="#page8">CONTACT</a>
+        </div>
+        <button id="show-login">Sign Up</button>
+    </div>
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>Sign Up</h2>
+            <div class="form-element">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-element">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+            </div>
+            <div class="form-element">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <div class="form-element">
+                <button id="Submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="popup_location">
+        <div class="close-btn">&times;</div>
+        <div class="map">
+            <img src="location map.png" alt="">
+        </div>
+        <h2>Current Locations Where We Are Operating</h2>
+        <p>We are currently operating in various locations, providing our services to a wide range of customers.</p>
+    </div>
+    <div id="main">
+        <div id="page">
+            <h1>ChargeXpress</h1>
+            <h4>Your Instant Charging Solution</h4>
+            <canvas></canvas>
+        </div>
+        <div id="page2"></div>
+        <div id="page1">
+            <h4>POWERING YOUR DEVICES</h4>
+            <h1>Anytime, Anywhere.</h1>
+        </div>
+        <div id="page3"></div>
+        <div id="page4">
+            <h1>Power Up Fast</h1>
+            <h4>Wherever You Are</h4>
+        </div>
+        <div id="page5">
+            <div id="center-page5">
+                <div id="left-page5">
+                    <div class="image">
+                        <img src="charging_station-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                <div id="right-page5">
+                    <div id="right-top5">
+                        <img src="vectordesign.png" alt="">
+                        <h3>Compact, modern design</h3>
+                    </div>
+                    <div id="right-center5">
+                        <img src="Screenshot_2024-10-17_130242-removebg-preview.png" alt="">
+                        <h3> Equipped with fast-charging capabilities</h3>
+                    </div>
+                    <div id="right-bottom5">
+                        <img src="loc.png" alt="">
+                        <h3>Strategically located in high-traffic areas</h3>
+                    </div>
+                </div>
+            </div>
+            <h1>Our Aim</h1>
+            <h2>_________</h2>
+            <h4>The aim of ChargeXpress is to provide accessible and efficient charging solutions in high-traffic areas, offering convenient on-the-go charging. By strategically placing stations and integrating technologies like MagSafe and quick charging, ChargeXpress enhances user experience while promoting sustainability.</h4>
+        </div>
+        <div id="page6">
+            <h1>How-It-Works</h1>
+            <div id="center-page6">
+                <div id="p1">
+                    <h2>01</h2>
+                    <h3>Check the app for the<br>nearest station</h3>
+                </div>
+                <div id="p2">
+                    <h2>02</h2>
+                    <h3>Withdraw your<br>Magsafe/Power Bank</h3>
+                </div>
+                <div id="p3">
+                    <h2>03</h2>
+                    <h3>Power-up your device</h3>
+                </div>
+                <div id="p4">
+                    <h2>04</h2>
+                    <h3>Return it to any<br>ChargeXpress station</h3></div>
+            </div>
+        </div>
+        <div id="page7">
+            <div id="center-page7">
+                <div id="a1"></div>
+                <div id="a2">
+                    <div id="center-a2"></div>
+                </div>
+                <div id="a3">
+                    <img src="Grupo de máscara 143.webp" alt="">
+                </div>
+                <div id="a4">
+                    <div id="center-a4"></div>
+                </div>
+                <div id="a5"></div>
+            </div>
+            <h1>Contact Us</h1>
+            <h2>____________</h2>
+            <h3>Get in touch to learn more about<br>our possibilities.</h3>
+        </div>
+        <div id="page8">
+            <div class="inputContainer">
+                <div class="inputGroup">
+                    <input type="text" required="" autocomplete="off" id="name">
+                    <label for="name">Name*</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="text" required="" autocomplete="off" id="email">
+                    <label for="email1">Email*</label>
+                </div>
+            </div>
+            <div class="inputContainer">
+                <div class="inputGroup">
+                    <input type="text" required="" autocomplete="off" id="phone">
+                    <label for="phone">Phone*</label>
+                </div>
+                <div class="inputGroup largerInput">
+                    <input type="text" required="" autocomplete="off" id="address">
+                    <label for="address">Address*</label>
+                </div>
+            </div>
+            <div class="inputContainer">
+                <div class="inputGroup largerInput">
+                    <input type="text" required="" autocomplete="off" id="comments">
+                    <label for="comments">Message</label>
+                </div>
+            </div>
+            
+            <div class="checkboxContainer">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree to the Terms and Conditions*</label>
+            </div>
+            <button class="button" id="send-message-button">
+                <span class="text">send message</span>
+                <span class="icon"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" data-icon="paper-plane" width="20px" aria-hidden="true"><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z" fill="currentColor"></path></svg></span>
+            </button>
+        </div>
+        <div id="page9">
+            <h1>Let's,<br>Charge Up</h1>
+            <h2>______________________________</h2>
+            <p>All rights reserved ©2024-2030 • ChargeXpress,Inc  </p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
